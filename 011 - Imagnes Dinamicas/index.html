@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinamicas</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente abrir as imagens em dispositivos diferentes ou apenas tente <br>
+    aumentar ou diminuir o tamanho do seu navegador</p>
+
+    
+    <picture>
+        
+        <source media="(max-width: 750px)" srcset="images/livro300.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="images/livro700.jpg" type="image/jpg">
+        <img src="images/livro1000.jpg" alt="livro flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir um audio</p>
+    <audio src="midia/Silent.mp3" controls ></audio>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/* Em HTML tudo em ID e #
+Tudo que e CLASS e . */
+
+
+
+body {
+    background-color: rgb(189, 248, 229);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.basico {
+    color: green;
+}
+
+.inter {
+    color: yellowgreen;
+}
+
+#principal {
+    text-align: center;
+    background-color: rgb(53, 177, 53);
+    font-weight:200;
+}
+
+h1{
+    color: rgb(1, 97, 1);
+}
+
+h2 {
+
+color: rgb(39, 143, 39);
+}
+
+.destaque
+{
+    background-color: rgba(216, 92, 92, 0.24);
+}
