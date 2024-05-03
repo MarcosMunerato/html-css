@@ -33,7 +33,7 @@
 
 
 body {
-    background-color: #c5ebd6;
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor4));
     font-family: var(--font-padrao);
 
 }
