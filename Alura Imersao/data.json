@@ -1,0 +1,54 @@
+[
+  {
+    "nome": "HTML",
+    "descricao": "linguagem de programação? Nao! E uma linguagem de marcação",
+    "ano": "1993",
+    "link": "https://www.w3schools.com/html/"
+  },
+
+  {
+    "nome": "CSS",
+    "descricao": "Aqui e onde vc estiliza seu site!",
+    "ano": "1994",
+    "link": "https://developer.mozilla.org/en-US/docs/Web/CSS"
+  },
+
+  {
+    "nome": "JavaScript",
+    "descricao": "Linguagem que permite criar páginas web interativas e dinâmicas.",
+    "ano": "1995",
+    "link": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript"
+  },
+
+  {
+    "nome": "Python",
+    "descricao": "Linguagem de alto nível, usada em desenvolvimento web, ciência de dados e automação.",
+    "ano": "1991",
+    "link": "https://www.python.org/"
+  },
+
+  {
+    "nome": "Java",
+    "descricao": "Linguagem orientada a objetos e multiplataforma, popular para aplicações empresariais e mobile.",
+    "ano": "1995",
+    "link": "https://www.java.com/"
+  },
+  {
+    "nome": "C#",
+    "descricao": "Linguagem de programação orientada a objetos desenvolvida pela Microsoft, amplamente usada em desenvolvimento Windows, web (ASP.NET) e jogos (Unity).",
+    "ano": "2000",
+    "link": "https://docs.microsoft.com/pt-br/dotnet/csharp/"
+  },
+  {
+    "nome": "PHP",
+    "descricao": "Linguagem de script de código aberto, muito utilizada para desenvolvimento web do lado do servidor.",
+    "ano": "1995",
+    "link": "https://www.php.net/"
+  },
+  {
+    "nome": "Ruby",
+    "descricao": "Linguagem de programação dinâmica, orientada a objetos, focada na simplicidade e produtividade, popular com o framework Ruby on Rails.",
+    "ano": "1995",
+    "link": "https://www.ruby-lang.org/pt/"
+  }
+]
