@@ -11,13 +11,52 @@
     </style>
   </head>
   <body>
-    <h1>Meu primeiro formulario</h1>
-    <form action="cadastro.php" autocomplete="off">
-      
-        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome" /></p>
-        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome" /></p>
-        <p><input type="submit" value="Enviar" /></p>
-    
+    <h1>Teste de Formulario</h1>
+    <form action="cadastro.php" autocomplete="on" method="get">
+      <p></p>
+        <label for="inome">Nome:</label>
+        <input
+          type="text"
+          name="nome"
+          id="inome"
+          required
+          maxlength="30"
+          placeholder="Nome Completo"
+          autocomplete="name"
+          required
+        />
+      </p>
+
+      <p>
+        <label for="imedia">Media</label>
+        <input
+          type="number"
+          name="media"
+          id="imedia"
+          min="0"
+          max="10"
+          placeholder="0 a 10"
+          step="0.5"
+          required
+        />
+        <!-- Essa parte onde consta STEP que dizer que a NOTA no caso, sera de meio em meio. Caso contrario o formulario pede nota cheia de 1 em 1 -->
+      </p>
+      <!-- Aqui criamos um formulario para colocarmos o ano-->
+      <p>
+        <label for="imes">Periodo Letivo</label>
+        <input type="month" name="imes" id="imes" value="2025-12" />
+      </p>
+      <p>
+        <!-- Aqui o nosso formulario e para colocarmos uma data completa (dia-mes-ano)-->
+        <label for="idia">Dia da Prova </label>
+        <input type="date" name="dia" id="idia" />
+      </p>
+
+      <p>
+        <input type="submit" value="Enviar" />
+        <!-- Esse input e para colocarmos um botao de limpar. Um reset mesmo -->
+        <input type="reset" value="Limpar" />
+      </p>
     </form>
   </body>
 </html>
